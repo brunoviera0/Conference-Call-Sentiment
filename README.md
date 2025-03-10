@@ -10,8 +10,11 @@ Still need to:
 Sample Output: "with the progress that we're making towards our 2024 and medium-term targets and remain committed to these targets. With that, Jane and I will be happy to take your questions.", "sentiment": {"positive": 0.38949939608573914, "negative": 0.5219312906265259, "neutral": 0.08856929838657379}, "keywords": ["IPO", "Revenue"]}, {"ticker": "C", "year": 2024, "quarter": 2, "paragraph": "Operator: At this time, we will open the floor for questions."
 
 export APININJAS_API_KEY="api_key" in terminal
+
+
+
 3/10/2025
-ssga_ai_paragraphs.py handles only AI related keywords in the technology category.
+ssga_ai_paragraphs.py handles only AI related keywords in the technology category while using process_transcript() from scoring.py
 TODO: clean up and organize bucket, a lot of junk submissions while trying to debug code.
 
 example output:
